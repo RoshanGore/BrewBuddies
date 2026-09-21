@@ -1,0 +1,13 @@
+{
+  "name": "brewbuddies",
+  "version": "1.0.0",
+  "description": "BrewBuddies - QR-based Dine-in Cafe Ordering & Customer Loyalty Platform",
+  "private": true,
+  "scripts": {
+    "server": "node server/server.js",
+    "server:dev": "node --watch server/server.js",
+    "client": "npm.cmd --prefix client run dev",
+    "seed": "node server/src/utils/seedData.js",
+    "build": "npm.cmd --prefix client run build"
+  }
+}
